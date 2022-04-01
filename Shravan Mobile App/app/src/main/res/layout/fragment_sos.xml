@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".SosFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35sp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/roboto_light"
+        android:gravity="left"
+        android:paddingLeft="20dp"
+        android:text="Your"
+        android:textColor="@color/teal_700"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:fontFamily="@font/roboto_light"
+        android:gravity="left"
+        android:paddingLeft="20dp"
+        android:text="SOS Contacts"
+        android:textColor="@color/teal_700"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:fontFamily="@font/roboto_light"
+        android:gravity="left"
+        android:paddingLeft="20dp"
+        android:text="You can add upto 4 people."
+        android:textColor="@color/teal_700"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="350dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="400dp"
+        android:id="@+id/reyclerView"
+        />
+<!--
+    <Button
+        android:id="@+id/ring_tglBtn"
+        android:layout_width="90sp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:background="@drawable/round_corner_button"
+        android:drawableTop="@drawable/ic_add_button"
+        android:elevation="10dp"
+        android:fontFamily="@font/roboto_black"
+        android:textColor="@color/light_white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="44dp"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btnAddContacts"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_gravity="top"
+        android:background="@drawable/sos_button_bgxml"
+        android:drawableTop="@drawable/ic_add_button"
+        android:elevation="10dp"
+        android:paddingTop="6dp"
+        android:text=""
+        android:textColor="@color/light_white"
+        app:backgroundTint="@color/teal_700"
+        app:cornerRadius="45dp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnRefereshContacts"
+        android:layout_height="75dp"
+        android:layout_width="75dp"
+        android:layout_marginLeft="44dp"
+        android:layout_gravity="top"
+        android:background="@drawable/sos_button_bgxml"
+        android:drawableTop="@drawable/ic_refresh_button"
+        android:elevation="10dp"
+        android:paddingTop="6dp"
+        android:text=""
+        android:textColor="@color/light_white"
+        app:backgroundTint="@color/teal_700"
+        app:cornerRadius="45dp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnDeleteContacts"
+        android:layout_height="75dp"
+        android:layout_width="75dp"
+        android:layout_marginLeft="44dp"
+        android:layout_gravity="top"
+        android:background="@drawable/sos_button_bgxml"
+        android:drawableTop="@drawable/ic_delete_button"
+        android:elevation="10dp"
+        android:paddingTop="6dp"
+        android:text=""
+        android:textColor="@color/light_white"
+        app:backgroundTint="@color/teal_700"
+        app:cornerRadius="45dp">
+
+    </Button>
+
+</LinearLayout>
+
+<!--    <Button
+        android:id="@+id/btnAddContacts"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/sos_button_bgxml"
+        android:drawableTop="@drawable/ic_add_button"
+        android:elevation="10dp"
+        android:paddingTop="6dp"
+        android:text=""
+        android:textColor="@color/light_white"
+        app:backgroundTint="@color/teal_700"
+        app:cornerRadius="45dp">
+
+    </Button>-->
+
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:layout_marginTop="19dp"
+            android:orientation="vertical">
+
+            <ToggleButton
+                android:id="@+id/connection_tglBtn"
+                android:layout_width="350sp"
+                android:layout_height="350sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40sp"
+                android:background="@drawable/round_corner_button"
+                android:drawableTop="@drawable/hometogglebutton_selector"
+                android:elevation="10dp"
+                android:paddingTop="40dp"
+                android:textOff="Connect"
+                android:textOn="Disconnect"
+                android:fontFamily="@font/roboto_black"
+
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/light_white"/>
+
+            <ToggleButton
+                android:id="@+id/ring_tglBtn"
+                android:layout_width="250sp"
+                android:layout_height="250sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40sp"
+                android:background="@drawable/round_corner_button"
+                android:drawableTop="@drawable/hometogglebutton_fms_selector"
+                android:elevation="10dp"
+                android:fontFamily="@font/roboto_black"
+                android:paddingTop="40dp"
+                android:textColor="@color/light_white"
+                android:textOff="FMS"
+                android:textOn="RINGING"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

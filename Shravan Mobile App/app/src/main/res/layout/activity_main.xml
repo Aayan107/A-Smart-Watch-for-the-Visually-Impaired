@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/body_container"
+    android:background="@color/light_white">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:id="@+id/body_container1"
+        android:background="@color/light_white"
+        android:orientation="vertical">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewpager2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bottom_navigation"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            app:backgroundTint="@color/transparent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="30dp"
+        android:elevation="4dp"
+        app:menu="@menu/item_menu"
+        android:background="@drawable/round_corner"
+        app:itemRippleColor="@android:color/transparent"
+        app:itemIconSize="30dp"
+        app:labelVisibilityMode="unlabeled"
+        app:backgroundTint="@color/teal_700"
+        app:itemIconTint="@drawable/item_selector"
+        android:id="@+id/bottom_navigation" />
+
+</RelativeLayout>

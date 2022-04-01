@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+    <item android:id="@+id/nav_setting"
+            android:title="Setting"
+            android:icon="@drawable/ic_settings"/>
+    <item android:id="@+id/nav_sos"
+            android:title="SOS"
+            android:icon="@drawable/ic_sos"/>
+    <item android:id="@+id/nav_bluetooth"
+            android:title="Bluetooth"
+            android:icon="@drawable/ic_bluetooth"/>
+    <item android:id="@+id/nav_face"
+            android:title="Face"
+            android:icon="@drawable/ic_face"/>
+</menu>
