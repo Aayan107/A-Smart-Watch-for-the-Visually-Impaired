@@ -28,6 +28,21 @@ An Intelligent Voice Assistant Engineered to Assist the Visually Impaired
 
 ![Shravan Schematics_bb](https://user-images.githubusercontent.com/61555936/161185977-ef83f68b-5876-4480-a56d-836669e82db3.png)
 
+### Android Application
+
+<img width="705" alt="Android App Collage" src="https://user-images.githubusercontent.com/61555936/161187162-b6e09d57-3f87-4105-877f-bb2e037b55ff.png">
+
+### Fruit Ripeness Detection Output
+
+![Fruit Ripeness](https://user-images.githubusercontent.com/61555936/161187243-1f02235c-7506-44dc-9af8-fd74f92803a5.png)
+
+### OCR Output
+
+![OCR](https://user-images.githubusercontent.com/61555936/161187288-67332785-b979-463a-a8ef-56935c5a3757.png)
+
+### Collision Avoidance Output (Ultrasonic Sensor)
+
+<img width="1200" alt="Ultrasonic" src="https://user-images.githubusercontent.com/61555936/161187441-4066f31c-e667-4705-ab18-aa8af49fd665.png">
 
 
 
